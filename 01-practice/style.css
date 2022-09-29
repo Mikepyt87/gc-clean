@@ -1,0 +1,46 @@
+h1 {
+    color: red;
+    margin: 20px;
+    border: 1px solid blue;
+    padding: 100px;
+}
+
+.boxContainer {
+    position: relative;
+    background-color: yellow;
+    /* left: 100px; */
+    width: 50%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 5px;
+}
+
+.relative {
+    position: relative;
+    /* offsets: top, bottom, right, left */
+    left: 100px;
+}
+
+.absolute {
+    background-color: gray;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.fixed {
+    background-color: purple;
+    position: fixed;
+    top: 50%;
+   /* right: 0;*/
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+div.box.fixed{
+    
+}

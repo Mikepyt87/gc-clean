@@ -1,0 +1,104 @@
+/* resets */
+body,
+h2,
+p {
+  margin: 0;
+}
+
+body {
+  /* font-family: 'Big Shoulders Display', cursive; */
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  margin: 75px 20px;
+}
+
+.car-container {
+  padding: 40px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 250px; */
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+
+.car-heading {
+  margin: 20px 0;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.car-copy {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.learn-more-btn {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  border: 0;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px 20px;
+  margin-top: 20px;
+  mix-blend-mode: screen;
+}
+
+/*.sedans .learn-more-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs .learn-more-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury .learn-more-btn {
+  color: hsl(179, 100%, 13%);
+}*/
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  main {
+    display: flex;
+  }
+  .car-container {
+    /*width: 300px;*/
+  }
+
+  .sedans {
+    border-radius: 10px 0 0 10px;
+  }
+  .suvs {
+  }
+
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .learn-more-btn {
+    margin-top: 100px;
+  }
+}

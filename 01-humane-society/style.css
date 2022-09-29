@@ -1,0 +1,110 @@
+/*reset */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  background-color: #70a48b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+.header-nav .nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 400px;
+  padding: 40px;
+  margin: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.header-nav .nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+#donation-link {
+  background-color: #1f211c;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+main {
+  margin-bottom: 130px;
+}
+
+.company-info,
+.pets {
+  padding: 20px;
+}
+
+.locations h3 {
+  background-color: #70a48b;
+  border: 1px solid #1f211c;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.images-container img {
+  border-radius: 10px;
+  width: 48%;
+  margin-bottom: 26px;
+}
+
+footer {
+  background-color: #70a48b;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#footer-icon {
+  width: 75px;
+  margin: 20px;
+}
+@media only screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  h1 {
+    margin: 0 0 0 10px;
+  }
+  main {
+    display: flex;
+  }
+  .company-info {
+    flex: 1;
+  }
+  .pets {
+    flex: 2;
+  }
+  .images-container {
+    width: 30%;
+  }
+}

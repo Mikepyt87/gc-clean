@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Form Example</h1>
+    <form class="form-container">
+      <div>
+        <h2>Input type: text</h2>
+        <label for="first-name"> First Name</label>
+        <input
+          type="text"
+          name="first-name"
+          id="first-name"
+          placeholder="Enter Your First Name"
+        />
+        <label for="last-name"> First Name</label>
+        <input
+          type="text"
+          name="last-name"
+          id="last-name"
+          placeholder="Enter Your Last Name"
+        />
+      </div>
+      <div>
+        <h2>Input type: Textarea</h2>
+        <label for="vacation">My dream vacation is...</label>
+        <textarea name="vacation" id="vacation" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <h2>Input type: EMail</h2>
+        <label for="email">EMail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="example@email.com"
+        />
+      </div>
+      <div>
+        <h2>Input type: Password</h2>
+        <label for="pw">Enter your password</label>
+        <input
+          type="password"
+          name="pw"
+          id="pw"
+          placeholder="Enter your password"
+        />
+      </div>
+      <div>
+        <h2>Input type: Date</h2>
+        <label for="dob">Enter your birthday</label>
+        <input type="date" name="dob" id="dob" />
+      </div>
+      <div class="unflex">
+        <h2>Input type: Radio</h2>
+        <input type="radio" name="animal" id="dog" value="dog" />
+        <label for="dog">Dogs</label>
+        <input type="radio" name="animal" id="cat" value="cat" />
+        <label for="dog">Cats</label>
+      </div>
+      <div class="unflex">
+        <h2>Input type: Checkbox</h2>
+        <input type="checkbox" name="scales" id="scales" checked />
+        <label for="scales">Scales</label>
+        <input type="checkbox" name="horns" id="horns" />
+        <label for="horns">Horns</label>
+        <input type="checkbox" name="tail" id="tail" />
+        <label for="tail">Tail</label>
+        <input type="checkbox" name="heads" id="heads" />
+        <label for="heads">Multiple Heads</label>
+        <input type="checkbox" name="wings" id="wings" />
+        <label for="wings">Wings</label>
+      </div>
+      <div>
+        <h2>Input type: Select (dropdown)</h2>
+        <label for="cars">Choose your favorite car</label>
+        <select name="cars" id="cars">
+          <option value="" disabled selected>Select your favorite car</option>
+          <option value="Mini">Cooper-S</option>
+          <option value="Cadillac">Lyric</option>
+          <option value="Chevrolette">C8</option>
+          <option value="Dodge">Dart</option>
+          <option value="Tesla">ModelX</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

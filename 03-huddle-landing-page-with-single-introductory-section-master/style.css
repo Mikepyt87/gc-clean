@@ -1,0 +1,72 @@
+/* Reset */
+body,
+p {
+  margin: 0;
+}
+
+.huddle-logo {
+  display: flex;
+}
+
+.huddle-logo img {
+  width: 40%;
+  padding: 38px;
+}
+
+.top-main {
+  padding: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/bg-mobile.svg");
+  background-color: hsl(257, 40%, 49%);
+  background-size: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-main .illustration-mockups {
+  width: 300px;
+}
+
+.bottom-main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+}
+
+.bottom-main-build {
+  width: 300px;
+}
+
+.bottom-main .build {
+  padding: 5px 0;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+.bottom-main .build .des {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.register-btn-container {
+  padding: 20px 0;
+  text-align: justify;
+}
+
+.register-btn {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+  color: hsl(257, 40%, 49%);
+  border: none;
+}
