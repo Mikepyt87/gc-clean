@@ -1,0 +1,78 @@
+/*reset*/
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: white;
+  border-radius: 30px;
+  width: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 40px 20px;
+  box-sizing: border-box;
+  box-shadow: 0 50px 50px -50px black;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.mobile-assets {
+  display: block;
+}
+
+.faq-art {
+  width: 250px;
+  position: absolute;
+  top: -115px;
+}
+
+.shadow {
+  width: 250px;
+}
+
+.faq-list {
+  list-style: none;
+  width: 100%;
+}
+
+.faq-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    flex-direction: row;
+  }
+
+  .assets-container,
+  .faq-container {
+    flex: 1;
+  }
+
+  .mobile-assets {
+    display: none;
+  }
+
+  .desktop-assets {
+    display: block;
+  }
+}
